@@ -20,7 +20,11 @@ The pod presented here actually does very little. It just demonstrates how to se
 
 ## Example Project
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first. Then, open 'StackO-Dependency-Demo.xcworkspace' in Xcode, select any Simulator as your target, then Build & Run.
+
+If you want to target an actual device, you'll need to first set your "team" in the project settings!
+
+Note, the Example is NOT very exciting. It just outputs 'Hello World' which actually is a string returnd by the developed pod. The usefulness of the example is in the code, not the example itself!
 
 ## Development Pod
 
