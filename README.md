@@ -14,7 +14,7 @@ The pod presented here actually does very little. It just demonstrates how to se
 
 * Add the dependency line in the podspec, for example `s.dependency 'RxSwift', '~> 3.0.1'`
 * Add as many dependencies as needed by repeating this line
-* Include your pod in another project and reference it via the podfile
+* Include your pod in another project and reference it via the podfile (in this repo, we're using the Example folder for an Example App)
 * After adding the dependency, be sure to perform `pod install` in the same folder that contains the Podfile
 * If you did not get any errors in the pod install, now you should be able to reference the dependency in your Pod's code, for example `import RxSwift` at the top of your pod's class files as needed.
 
