@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StackO-Dependency-Demo_Example' do
+  pod 'StackO-Dependency-Demo', :path => '../'
+
+  target 'StackO-Dependency-Demo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
