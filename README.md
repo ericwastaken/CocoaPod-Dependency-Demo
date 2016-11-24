@@ -10,6 +10,8 @@ Additionally, the example project requires 'PureLayout' - so you can see the dif
 
 The pod presented here actually does very little. It just demonstrates how to setup a Pod with a dependency!
 
+Note: I am very purposely demonstrating this in ONLY Swift, Xcode 8 and CocoaPods 1.1.1. There are several nuances when a Swift pod depends on an ObjectiveC pod, especially if the said ObjectiveC pod is a static library!
+
 ## How do we add a dependency in a Podspec?
 
 * Add the dependency line in the podspec, for example `s.dependency 'RxSwift', '~> 3.0.1'`
@@ -34,6 +36,9 @@ Note, the Example App is NOT very exciting. It just outputs 'Hello World' which 
 * Open 'StackO-Dependency-Demo.xcworkspace' in Xcode
 * Navigate to the StackO-Dependency-Demo project, then the 'Example for...' group
 * Thew ViewController.swift has the few lines of code to reference the developed Pod and also PureLayout 
+
+**Interesting side-effect in the Example App**
+Note how the Example App does indeed ALSO have access to the RxSwift pod. This is quite convenient in case you're leveraging a Pod that provides functionality to both your developed Pod and your App/Project.
 
 ## Development Pod
 

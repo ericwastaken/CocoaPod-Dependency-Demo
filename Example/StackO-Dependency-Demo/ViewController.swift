@@ -11,6 +11,8 @@ import UIKit
 // Note how this class has access to BOTH PureLayout and our developed pod!
 import PureLayout
 import StackO_Dependency_Demo
+// Note how the 'dependent' pod for StackO_Dependency_Demo is also visble here!
+import RxSwift
 
 class ViewController: UIViewController {
 
