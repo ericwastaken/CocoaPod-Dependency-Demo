@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+// import PureLayout // Trying to import 'PureLayout' will NOT work here! PureLayout is included in the Podfile and therefore available for the Example App but NOT for the Developed Pod.
 
 public class StackoDependencyDemoSomeClass: NSObject {
 

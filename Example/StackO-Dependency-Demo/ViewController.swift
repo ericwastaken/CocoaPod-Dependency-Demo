@@ -7,6 +7,8 @@
 //
 
 import UIKit
+
+// Note how this class has access to BOTH PureLayout and our developed pod!
 import PureLayout
 import StackO_Dependency_Demo
 

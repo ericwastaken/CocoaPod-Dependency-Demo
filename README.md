@@ -18,17 +18,26 @@ The pod presented here actually does very little. It just demonstrates how to se
 * After adding the dependency, be sure to perform `pod install` in the same folder that contains the Podfile
 * If you did not get any errors in the pod install, now you should be able to reference the dependency in your Pod's code, for example `import RxSwift` at the top of your pod's class files as needed.
 
-## Example Project
+## Running the Example App
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first. Then, open 'StackO-Dependency-Demo.xcworkspace' in Xcode, select any Simulator as your target, then Build & Run.
+To run the example app:
+
+* Clone the repo, and run `pod install` from the Example directory first
+* Open 'StackO-Dependency-Demo.xcworkspace' in Xcode, select any Simulator as your target, then Build & Run.
 
 If you want to target an actual device, you'll need to first set your "team" in the project settings!
 
-Note, the Example is NOT very exciting. It just outputs 'Hello World' which actually is a string returnd by the developed pod. The usefulness of the example is in the code, not the example itself!
+Note, the Example App is NOT very exciting. It just outputs 'Hello World' which actually is a string returnd by the developed pod. The usefulness of the example is in the code, not the example itself!
+
+## Review the Example App Code
+
+* Open 'StackO-Dependency-Demo.xcworkspace' in Xcode
+* Navigate to the StackO-Dependency-Demo project, then the 'Example for...' group
+* Thew ViewController.swift has the few lines of code to reference the developed Pod and also PureLayout 
 
 ## Development Pod
 
-In the Pods project, open the group 'Development Pods' until you see the folder for 'Classes' in 'StackO-Dependency-Demo'.
+In Xcode, from the Pods project, open the group 'Development Pods' until you see the folder for 'Classes' in 'StackO-Dependency-Demo'. This is the Pod being developed! Note after following the above steps, this Pod is indeed able to `import RxSwift`. Notice also how it cannot reference PureLayout!
 
 ## Requirements
 
@@ -39,7 +48,7 @@ In the Pods project, open the group 'Development Pods' until you see the folder 
 
 * Clone this repo
 * In the Exmple folder, perforn a `pod install`
-* Open in Xcode 8 to review and inspect
+* Open 'StackO-Dependency-Demo.xcworkspace' in Xcode 8 to review and inspect
 
 ## Author
 
