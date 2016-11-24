@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'StackO-Dependency-Demo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of StackO-Dependency-Demo.'
+  s.summary          = 'A demo of Dependency in a Podspec.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod demonstrates including dependencies to other Pods in a developed-pod.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/StackO-Dependency-Demo'
+  s.homepage         = 'https://github.com/ericwastaken/CocoaPod-Dependency-Demo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Eric A. Soto' => 'eric@issfl.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/StackO-Dependency-Demo.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Eric A. Soto' => 'easoto@iss-pr.com' }
+  s.source           = { :git => 'https://github.com/ericwastaken/CocoaPod-Dependency-Demo.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/ericwastaken'
 
   s.ios.deployment_target = '8.0'
 

@@ -1,20 +1,21 @@
 {
   "name": "StackO-Dependency-Demo",
   "version": "0.1.0",
-  "summary": "A short description of StackO-Dependency-Demo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/StackO-Dependency-Demo",
+  "summary": "A demo of Dependency in a Podspec.",
+  "description": "This pod demonstrates including dependencies to other Pods in a developed-pod.",
+  "homepage": "https://github.com/ericwastaken/CocoaPod-Dependency-Demo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Eric A. Soto": "eric@issfl.com"
+    "Eric A. Soto": "easoto@iss-pr.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/StackO-Dependency-Demo.git",
+    "git": "https://github.com/ericwastaken/CocoaPod-Dependency-Demo.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/ericwastaken",
   "platforms": {
     "ios": "8.0"
   },
