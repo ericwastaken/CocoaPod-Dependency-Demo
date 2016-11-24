@@ -1,0 +1,22 @@
+PODS:
+  - PureLayout (3.0.2)
+  - RxSwift (3.0.1)
+  - StackO-Dependency-Demo (0.1.0):
+    - RxSwift (~> 3.0.1)
+
+DEPENDENCIES:
+  - PureLayout
+  - StackO-Dependency-Demo (from `../`)
+
+EXTERNAL SOURCES:
+  StackO-Dependency-Demo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+  StackO-Dependency-Demo: 2bd1bfd8a588552fdd4198cdf6d8a2cb022fddd3
+
+PODFILE CHECKSUM: 4609863cd095c7d4c046b5f6d6032485344849a3
+
+COCOAPODS: 1.1.1

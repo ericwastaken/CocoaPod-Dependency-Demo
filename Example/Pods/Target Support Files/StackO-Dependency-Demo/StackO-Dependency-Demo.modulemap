@@ -1,0 +1,6 @@
+framework module StackO_Dependency_Demo {
+  umbrella header "StackO-Dependency-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
