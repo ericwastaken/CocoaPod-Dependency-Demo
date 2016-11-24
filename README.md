@@ -38,6 +38,7 @@ Note, the Example App is NOT very exciting. It just outputs 'Hello World' which 
 * Thew ViewController.swift has the few lines of code to reference the developed Pod and also PureLayout 
 
 **Interesting side-effect in the Example App**
+
 Note how the Example App does indeed ALSO have access to the RxSwift pod. This is quite convenient in case you're leveraging a Pod that provides functionality to both your developed Pod and your App/Project.
 
 ## Development Pod
