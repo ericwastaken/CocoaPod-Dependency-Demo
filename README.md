@@ -1,4 +1,4 @@
-# StackO-Dependency-Demo
+# CocoaPod Podspec Dependency Demo
 
 ## Summary
 
